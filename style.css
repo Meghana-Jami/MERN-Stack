@@ -1,0 +1,25 @@
+*{
+    background-color: azure;
+    color: cadetblue;
+}
+h1{
+    color:chocolate;
+}
+#box{
+    background: blue;
+}
+.heading{
+    color:blueviolet;
+}
+#outer p{
+    font-size:25px;
+}
+#inner p{
+    font-size:10px;
+}
+#circle{
+    background:black;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}

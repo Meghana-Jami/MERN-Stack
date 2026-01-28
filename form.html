@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body{
+                font-family: Arial,sans-serif;
+                background-color: antiquewhite;
+            }
+            .container {
+            width: 400px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Student Registration Form</h2>
+            <lable for="Roll no">Roll no:<input type="text" placeholder="enter roll no"></lable><br>
+            <lable for="studentname">Student name:<input type="text" placeholder="enter your username"></lable><br>
+            <lable for="Father's name">Father's Name:<input type="text" placeholder="enter your Fathername"></lable><br>
+            <lable for="dob">DOB:<input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD"></lable><br>
+            <lable for="mobile">Mobile no:<input type="number" placeholder="enter your mobile no"></lable><br>
+            <lable for="Email">Email:<input type="text" placeholder="enter your email"></lable><br>
+            <lable for="password">Password:<input type="text" placeholder="enter your Password:"></lable><br>
+            <lable for="gender">gender male<input type="radio">female<input type="radio">
+            </lable><br>
+            <label>Department:</label><br>
+            <input type="checkbox" id="CSE" name="department[]" value="CSE">
+            <label for="CSE">CSE</label><br>
+            <input type="checkbox" id="IT" name="department[]" value="IT">
+            <label for="IT">IT</label><br>
+            <input type="checkbox" id="ECE" name="department[]" value="ECE">
+            <label for="ECE">ECE</label>
+            <input type="checkbox" id="Civil" name="department[]" value="Civil">
+            <label for="Civil">Civil</label>
+            <input type="checkbox" id="EEE" name="department[]" value="EEE">
+            <label for="EEE">EEE</label>
+            <input type="checkbox" id="MECH" name="department[]" value="MECH">
+            <label for="MECH">MECH</label>
+            <select name="city" id="city">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Banglore">Hyderabad</option>
+                <option value="Vishakapatnam">Hyderabad</option>
+                <option value="Delhi">Hyderabad</option>
+            </select>
+            <textarea name="" id="" placeholder="enter about you"></textarea>
+            <br>
+            <button type="submit">Register</button>
+        </div>
+    </body>
+</html> 

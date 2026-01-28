@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sessionStorage.setItem("username","megha")
+        // const data = sessionStorage.getItem("username")
+        // console.log(data)
+        // sessionStorage.removeItem("username")
+        // sessionStorage.clear()
+        const obj={
+            name:"adam",
+            age:20,
+            details:{
+                city:"vskp",
+                state:"AP"
+            }
+        }
+        localStorage.setItem("user",JSON.stringify(obj))
+        const user = JSON.parse(localStorage.getItem("user"))
+        console.log(user.name)
+     </script>
+</body>
+</html>
